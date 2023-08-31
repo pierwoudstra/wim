@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:whitesmoke;
+}
+
+html {
+    scroll-behavior:smooth;
+}
+
+p {
+    font-family: 'Averia Serif Libre', cursive;
+    color:#444;
+    font-size: 1.5vmax;
+    text-decoration:none;
+}
+
+h2 {
+    font-family: 'Averia Serif Libre', cursive;
+    color:#444;
+    font-size: 1.5vmax;
+    font-style: normal;
+}
+
+/* navigacija */
+
+nav {
+    font-family: 'Instrument Serif', serif;
+    font-style: italic;
+    align-content: center;
+    height: 3vh;
+    padding: 2vh;
+    margin: auto;
+    float: none;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a {
+    font-family: 'Averia Serif Libre', cursive;
+    color:#444;
+    font-size: 1.5vmax;
+    text-decoration:none;
+}
+
+a:hover {
+    color:teal;
+    background-size: cover;
+    text-decoration: underline;
+    text-decoration-style:dashed;
+    text-decoration-thickness: 2px;
+}
+
+/*  SECTION */
+
+.home {
+    display: grid;
+    flex-wrap: wrap;
+    padding: 20px;
+
+    padding-top: 17vh;
+    height: 83vh;
+    margin: 0rem;
+
+    grid-template-columns: 40% 60%;
+    grid-gap: 20px;
+}
+
+.home div {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 10px;
+    padding: 1vmax;
+}
+  
+.home img {
+    object-fit: cover;
+    vertical-align: bottom;
+}
+
+.foto {
+    background-color: aqua;
+}
+.foto2 {
+    background-color: red;
+}
+.foto3 {
+    background-color: green;
+}
+
+.centered {
+    position: absolute;
+  }

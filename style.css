@@ -28,7 +28,7 @@ h2 {
     font-style: normal;
 }
 
-/* navigacija */
+/* NAVIGATION */
 
 nav {
     font-family: 'Instrument Serif', serif;
@@ -64,11 +64,9 @@ a:hover {
 .home {
     display: grid;
     flex-wrap: wrap;
-    padding: 20px;
-
-    padding-top: 17vh;
+    padding: 17vh 20px 20px;
     height: 83vh;
-    margin: 0rem;
+    margin: 0;
 
     grid-template-columns: 40% 60%;
     grid-gap: 20px;
@@ -87,13 +85,13 @@ a:hover {
     vertical-align: bottom;
 }
 
-.foto {
+.photo {
     background-color: aqua;
 }
-.foto2 {
+.photo2 {
     background-color: red;
 }
-.foto3 {
+.photo3 {
     background-color: green;
 }
 

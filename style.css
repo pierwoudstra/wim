@@ -17,15 +17,18 @@ html {
 p {
     font-family: 'Averia Serif Libre', cursive;
     color:#444;
+    font-weight: 300;
     font-size: 1.5vmax;
     text-decoration:none;
 }
 
 h2 {
-    font-family: 'Averia Serif Libre', cursive;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
     color:#444;
-    font-size: 1.5vmax;
+    font-size: 1.7vmax;
     font-style: normal;
+    text-align: justify;
 }
 
 /* NAVIGATION */
@@ -34,8 +37,8 @@ nav {
     font-family: 'Instrument Serif', serif;
     font-style: italic;
     align-content: center;
-    height: 3vh;
-    padding: 2vh;
+    height: 1vh;
+    padding: 1vh;
     margin: auto;
     float: none;
     position: absolute;
@@ -47,7 +50,8 @@ nav {
 a {
     font-family: 'Averia Serif Libre', cursive;
     color:#444;
-    font-size: 1.5vmax;
+    font-weight: 300;
+    font-size: 1.8vmax;
     text-decoration:none;
 }
 
@@ -64,37 +68,45 @@ a:hover {
 .home {
     display: grid;
     flex-wrap: wrap;
-    padding: 17vh 20px 20px;
+    padding: 12vh;
     height: 83vh;
-    margin: 0;
+    margin: 1vw;
 
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 50% 50%;
     grid-gap: 20px;
 }
 
+.meubels {
+    display: grid;
+    padding: 12vh;
+    height: 83vh;
+    margin: 1vw;
+}
+
 .home div {
-    flex-grow: 1;
     display: flex;
     flex-direction: column;
     grid-gap: 10px;
     padding: 1vmax;
 }
-  
-.home img {
-    object-fit: cover;
-    vertical-align: bottom;
+
+.rechts {
+    background-size:10vw;
+    background-image: url("assets/logo2.webp");
 }
 
-.photo {
-    background-color: aqua;
+.photo-left {
+    background-size:10vw;
+    background-image: url("assets/logo.webp");
 }
+
+.photo img {
+    width: 100%;
+}
+
 .photo2 {
     background-color: red;
 }
 .photo3 {
     background-color: green;
 }
-
-.centered {
-    position: absolute;
-  }
